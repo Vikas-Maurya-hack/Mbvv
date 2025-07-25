@@ -1,0 +1,9 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+  /* padding-top: var(--ion-safe-area-top, 0); */
+  }
+  IonApp{
+    --ion-background-color: #ffffff;
+    --ion-background-color-rgb: 255, 255, 255;
+  }

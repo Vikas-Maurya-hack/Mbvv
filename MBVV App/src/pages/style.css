@@ -1,0 +1,103 @@
+.searchBtn{
+    --border-radius: 50px;
+}
+IonPage{
+    --ion-background-color:white;
+}
+/* Add this to your CSS file (e.g., style.css) */
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .center-button ion-button {
+    width: 50%; 
+    max-width: 200px;
+  }
+  /* Center the content vertically and horizontally */
+/* Center the content vertically and horizontally */
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use full viewport height */
+    padding: 20px;
+    --background: transparent;
+    background: transparent;
+  }
+  
+  /* Login card styling */
+  .login-card {
+    width: 100%;
+    max-width: 400px; /* Limit the width for larger screens */
+    padding: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 0 auto; /* Center the card horizontally */
+    background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  }
+  
+  /* Logo styling */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 170px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  /* Login card styling */
+
+  
+  /* Error message styling */
+  .error-message {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Center the login button */
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .login-button {
+    width: 90%;
+    max-width: 100px; /* Adjust the width as needed */
+  }
+
+  .sub-button {
+    width: 100%;
+    max-width: 150px; /* Adjust the width as needed */
+    margin:20px;
+  }
+
+  p.loginText{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  span#wcb_2{
+    color: white !important;
+  }
+  /* Add to your style.css */
+  .header-collapse-condense-inactive:not(.header-collapse-condense) ion-toolbar.in-toolbar ion-title, .header-collapse-condense-inactive:not(.header-collapse-condense) ion-toolbar.in-toolbar ion-buttons.buttons-collapse{
+    opacity: 1 !important;
+  }
+  IonHeader{
+    opacity: 1 !important;
+  }
+  @media (max-width: 768px) {
+    .text-mira{
+      font-size: 18px;
+    }
+  }

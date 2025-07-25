@@ -1,0 +1,7 @@
+{
+  "name": "mbvv-directory",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
